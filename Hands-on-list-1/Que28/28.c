@@ -27,6 +27,6 @@ int main()
 /*
 Output:
 adityadave@Adityas-MacBook-Air-3 Que28 % ./28
-SCHED_FIFO: Min Priority = 15, Max Priority = 47
-SCHED_RR:   Min Priority = 15, Max Priority = 47
+FIFO POLICY => Min Priority = 15, Max Priority = 47
+ROUND ROBIN POLICY => Min Priority = 15, Max Priority = 47
 */
