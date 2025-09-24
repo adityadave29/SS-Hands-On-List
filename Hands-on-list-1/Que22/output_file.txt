@@ -1,0 +1,6 @@
+This sentence is written by parent process.
+This sentence is written by child process.
+This sentence is written by parent process.
+This sentence is written by child process.
+This sentence is written by parent process.
+This sentence is written by child process.
