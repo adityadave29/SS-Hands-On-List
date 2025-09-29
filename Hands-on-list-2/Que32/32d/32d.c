@@ -1,3 +1,25 @@
+#include <stdio.h>
+#include <semaphore.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+
+#define SEM_NAME "/ticket_mutex"
+
+int main()
+{
+    if (sem_unlink(SEM_NAME) == 0)
+    {
+        printf("Semaphore %s removed successfully.\n", SEM_NAME);
+    }
+    return 0;
+}
+
+/*
+adityadave@Adityas-MacBook-Air-3 32d % ./32d
+Semaphore /ticket_mutex removed successfully.
+*/
+
+/*
 #include <sys/shm.h>
 #include <stdio.h>
 #include <stdlib.h>
