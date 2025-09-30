@@ -1,4 +1,11 @@
-// orphan_process.c
+/*
+============================================================================================================================================================
+Name : 12.c
+Author : Aditya Dave
+Description: Write a program to create an orphan process. Use kill system call to send SIGKILL signal to the parent process from the child process.
+Date: 30th sep 2025
+============================================================================================================================================================
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

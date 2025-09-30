@@ -1,3 +1,16 @@
+/*
+============================================================================================================================================================
+Name : 19a.c
+Author : Aditya Dave
+Description: Create a FIFO file by
+a. mknod command
+b. mkfifo command
+c. use strace command to find out, which command (mknod or mkfifo) is better.
+c. mknod system call
+d. mkfifo library function
+Date: 30th sep 2025
+============================================================================================================================================================
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>

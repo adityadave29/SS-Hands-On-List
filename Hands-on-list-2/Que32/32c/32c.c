@@ -1,3 +1,11 @@
+/*
+============================================================================================================================================================
+Name : 32c.c
+Author : Aditya Dave
+Description: Write a program to protect multiple pseudo resources (may be two) using counting semaphore.
+Date: 30th sep 2025
+============================================================================================================================================================
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -26,3 +34,22 @@ int main()
     sem_close(sem);
     return 0;
 }
+
+/*
+
+Terminal 1:
+adityadave@Adityas-MacBook-Air-3 32c % ./32c
+Process 5512: waiting for a printer...
+Process 5512: got a printer! Printing...
+Process 5512: done printing, releasing printer.
+
+Terminal 2:
+adityadave@Adityas-MacBook-Air-3 32c % ./32c
+Process 5502: waiting for a printer...
+Process 5502: got a printer! Printing...
+Process 5502: done printing, releasing printer.
+
+Terminal 3:
+adityadave@Adityas-MacBook-Air-3 32c % ./32c
+Process 5518: waiting for a printer...
+*/

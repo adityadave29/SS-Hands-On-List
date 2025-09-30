@@ -1,3 +1,14 @@
+/*
+============================================================================================================================================================
+Name : 1b.c
+Author : Aditya Dave
+Description: Write a separate program (for each time domain) to set a interval timer in 10sec and
+10micro second
+b. ITIMER_VIRTUAL
+Date: 30th sep 2025
+============================================================================================================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>

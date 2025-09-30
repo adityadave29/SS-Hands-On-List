@@ -1,3 +1,11 @@
+/*
+============================================================================================================================================================
+Name : 16.c
+Author : Aditya Dave
+Description: Write a program to send and receive data from parent to child vice versa. Use two way communication.
+Date: 30th sep 2025
+============================================================================================================================================================
+*/
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

@@ -1,3 +1,11 @@
+/*
+============================================================================================================================================================
+Name : 8d.c
+Author : Aditya Dave
+Description: Write a separate program using signal system call to catch SIGALRM (use alarm system call).
+Date: 30th sep 2025
+============================================================================================================================================================
+*/
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
