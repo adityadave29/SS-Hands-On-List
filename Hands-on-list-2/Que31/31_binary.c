@@ -38,4 +38,11 @@ int main()
 /*
 adityadave@Adityas-MacBook-Air-3 Que31 % ./31b
 Binary semaphore (MUTEX/LOCK) created: semid=65536, initial value=1
+
+adityadave@Adityas-MacBook-Air-3 Que31 % ipcs -s
+
+IPC status from <running system> as of Wed Oct  1 17:43:08 IST 2025
+T     ID     KEY        MODE       OWNER    GROUP
+Semaphores:
+s  65536 0xffffffff --ra-ra-ra- adityadave    staff
 */
